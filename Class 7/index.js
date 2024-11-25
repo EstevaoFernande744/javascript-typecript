@@ -20,3 +20,29 @@ console.log(num2 % num3)
 let contador = 1
 contador ++ // contador = contador + 1
 console.log(contador)
+
+const passo = 2
+let calculadora = 0
+calculadora = calculadora + passo
+//calculadora += passo  
+console.log(calculadora)
+calculadora -= passo  
+console.log(calculadora)
+calculadora *= passo  
+console.log(calculadora)
+calculadora /= passo  
+console.log(calculadora)
+calculadora **= passo  
+console.log(calculadora)
+calculadora %= passo  
+console.log(calculadora)
+
+
+
+//NaN - Not a number - Erro na conta
+
+const num4 = 10
+const num5 = 'Estevão'
+
+console.log(num4 * num5)
+
