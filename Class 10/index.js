@@ -20,5 +20,5 @@ console.log(umaString.slice(-6, -1)) /* pegamos o tamanho inteiro da String e vo
 console.log(umaString.substring(umaString.length - 6, umaString.length - 1))
 
 console.log(umaString.split(' '))
-console.log(umaString.toUpperCase) // Converte a String em Maiusculo
-console.log(umaString.toLowerCase) // Converte a String em Minusculo
+console.log(umaString.toUpperCase()) // Converte a String em Maiusculo
+console.log(umaString.toLowerCase()) // Converte a String em Minusculo
