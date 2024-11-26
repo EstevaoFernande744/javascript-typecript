@@ -37,7 +37,7 @@ const a2 = {
     sobrenome: 'Lima'
 }
 
-const a3 = a1
+const a3 = {...a1}
 
 a1.nome = 'Junior'
 console.log(a2)
