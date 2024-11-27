@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Sriracha&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+html,body {
+    background-image:linear-gradient(to bottom, #1D4964, #F26F45);
+    height: 100%;
+    margin: 0px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+}
+
+form#fundo {
+    background-color: #1d496438;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+h1 {
+    color: white;
+    font: bolder 2.8em "Lato";
+    margin: 10px;
+    padding: 20px;
+}
+
+select {
+    margin: 10px;
+    font: normal 0.8em "Lato";
+    text-align-last: center; /* Centraliza o texto selecionado no campo */
+}
+
+select#itiposang{
+    width: 220px;
+}
+
+div#isenha{
+    width: 50px;
+}
+
+label {
+    color: white;
+    font: bolder 1.2em "Lato";
+}
+
+div {
+    color: white;
+    font: bolder 1.2em "Lato";
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font: normal 1em "Lato";
+    margin: 10px 0;
+    width: 90%;
+    max-width: 300px;
+}
+
+input.botao {
+    margin: 10px;
+    background-color: #F26F45;
+    border-color: #F26F45;
+    color: white;
+    font: bolder 0.8em "Lato";
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #f2704588;
+}
+
+input.botao:hover {
+    background-color: #ff764d; /* Tonalidade mais clara */
+    cursor: pointer; /* Indica interatividade */
+    transition: background-color 0.3s ease;
+}

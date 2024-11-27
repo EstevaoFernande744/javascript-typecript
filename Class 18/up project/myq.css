@@ -1,0 +1,143 @@
+@media (max-width: 600px) {
+   
+    /* Estilos gerais (para desktops e telas maiores por padrão) */
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1D4964, #F26F45);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain; /* Ajusta para caber sem cortar */
+    background-attachment: fixed; /* Fixa a posição da imagem */
+}
+
+form#fundo {
+    background-color: rgba(29, 73, 100, 0.486);
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Ajustes para smartphones pequenos (320px a 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        background-size: contain; /* Ajusta para caber sem cortar */
+        background-attachment: fixed; /* Fixa a posição da imagem */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Reduz o título para caber melhor */
+        padding: 20px;
+    }
+
+    form#fundo {
+        padding: 20px;
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        font-size: 0.9em;
+        padding: 8px;
+        width: 100%; /* Garantir largura total no mobile */
+    }
+
+    input.botao {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+/* Ajustes para tablets (481px a 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+        background-size: contain; /* Ajusta para caber sem cortar */
+        background-attachment: fixed; /* Fixa a posição da imagem */
+    }
+
+    h1 {
+        font-size: 2.2em; /* Um pouco maior que em smartphones */
+        padding: 20px;
+    }
+
+    form#fundo {
+        padding: 30px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    input.botao {
+        font-size: 1em;
+        padding: 12px;
+    }
+}
+
+/* Ajustes para laptops menores (769px a 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-size: contain; /* Ajusta para caber sem cortar */
+        background-attachment: fixed; /* Fixa a posição da imagem */
+    }
+
+    h1 {
+        font-size: 2.5em; /* Quase igual ao tamanho padrão */
+        padding: 20px;
+    }
+
+    form#fundo {
+        padding: 35px;
+        width: 60%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        font-size: 1em;
+        padding: 12px;
+        width: 90%;
+    }
+
+    input.botao {
+        font-size: 1.1em;
+        padding: 14px;
+    }
+}
+
+/* Ajustes para telas maiores (maior que 1024px) */
+@media (min-width: 1025px) {
+    form#fundo {
+        max-width: 500px; /* Para telas muito grandes */
+        width: 50%;
+        background-size: contain; /* Ajusta para caber sem cortar */
+        background-attachment: fixed; /* Fixa a posição da imagem */
+    }
+
+    h1 {
+        font-size: 3em; /* Destaque maior */
+        padding: 20px;
+    }
+
+    input.botao {
+        font-size: 1.2em;
+    }
+}
+
+}
