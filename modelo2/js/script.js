@@ -1,4 +1,4 @@
-// Capturar     
+// Capturar         
 
 const form = document.querySelector('#form')
 
