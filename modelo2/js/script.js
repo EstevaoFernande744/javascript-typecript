@@ -19,18 +19,17 @@ form.addEventListener('submit', function(event){
         return // vou parar minha função
     }   
 
-    const imc = getImc(peso, altura)
-    const nivelImc = getNivelImc(imc)
+    const imc = getImc(peso, altura) // puxando imc
+    const nivelImc = getNivelImc(imc) // puxando nivelImc
 
-    const msg = `Seu IMC é ${imc} (${nivelImc})`
+    const msg = `Seu IMC é ${imc} (${nivelImc})` // msg para falar 
 
-    setResultado(msg, true)
+    setResultado(msg, true) // flag para falar se foi verdadeiro ou não
 
-    //setResultado('Olá Mundo!') // colocar no resultado
 })  
 
 
-  function getNivelImc (imc) {
+  function getNivelImc (imc) {  // usar as frases
     const nivel = ['Abaixo do peso', 'Peso normal', 'Sobrepeso',
       'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3'];
   
@@ -43,9 +42,9 @@ form.addEventListener('submit', function(event){
   }
 
 
-  function getImc (peso, altura) {
-    const imc = peso / altura ** 2;
-    return imc.toFixed(2);
+  function getImc (peso, altura) { // função para calcular o imc
+    const imc = peso / altura ** 2;  // calculo sendo salvo na variavel imc
+    return imc.toFixed(2);   // obtendo o valor do imc com duas casas decimais 
   }
 
   function criaP (){
@@ -62,9 +61,9 @@ form.addEventListener('submit', function(event){
     const p = criaP() // salvando a função criaP em p
 
     if (isValid) {
-        p.classList.add('paragrafo-resultado');
+        p.classList.add('paragrafo-resultado'); // resultado valido
     } else {
-        p.classList.add('bad');
+        p.classList.add('bad'); // resultado não valido
     }
 
     p.innerHTML = msg;
