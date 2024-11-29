@@ -75,3 +75,10 @@ h2 {
     color: white;
 }
 
+.paragrafo-resultado {
+    background-color: lightgreen;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
