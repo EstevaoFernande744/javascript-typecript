@@ -1,3 +1,4 @@
+/*
 const p1 = document.querySelector('#primeiro') // pegando a seção e o paragrafo
 const p2 = document.querySelector('#segundo')
 const data = new Date(); // data atual 
@@ -101,4 +102,12 @@ function criaHora(data) {
 p1.textContent = criaData(data);
 p2.textContent = criaHora(data);
 
+*/
+
+const p1 = document.querySelector('#primeiro') // pegando a seção e o paragrafo
+const p2 = document.querySelector('#segundo')
+const data = new Date(); // data atual 
+
+p1.innerHTML = data.toLocaleDateString('pt-br', {dateStyle: 'full'});
+p2.innerHTML = data.toLocaleTimeString('pt-br', {timeStyle: 'short'});
 
