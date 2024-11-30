@@ -1,4 +1,7 @@
 /*
+
+------------------ JEITO DE CORNO ------------------
+
 const p1 = document.querySelector('#primeiro') // pegando a seção e o paragrafo
 const p2 = document.querySelector('#segundo')
 const data = new Date(); // data atual 
@@ -104,10 +107,37 @@ p2.textContent = criaHora(data);
 
 */
 
+/*
+
+---------------- JEITO INTELIGENTE -----------------
+
 const p1 = document.querySelector('#primeiro') // pegando a seção e o paragrafo
 const p2 = document.querySelector('#segundo')
 const data = new Date(); // data atual 
 
 p1.innerHTML = data.toLocaleDateString('pt-br', {dateStyle: 'full'});
 p2.innerHTML = data.toLocaleTimeString('pt-br', {timeStyle: 'short'});
+*/
 
+
+/*
+------------------ JEITO QUE SERVE -----------------
+*/
+
+const p1 = document.querySelector('#primeiro') // pegando a seção e o paragrafo
+const p2 = document.querySelector('#segundo')
+const data = new Date(); // data atual 
+
+function getNomeMes(numeroMes){
+    const meses = ['Janeiro','Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+    return meses[numeroMes]
+
+}
+
+function getDiaSemana(diaSemana){
+    const dias = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+    return dias [diaSemana]
+}
+
+p1.innerHTML = data.toLocaleDateString('pt-br', {dateStyle: 'full'});
+p2.innerHTML = data.toLocaleTimeString('pt-br', {timeStyle: 'short'});
