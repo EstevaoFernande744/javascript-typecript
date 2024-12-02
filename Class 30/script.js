@@ -58,3 +58,15 @@ let carteiras = {
 let vetorEduardo = ['Eduardo', 'Brasil', 20];
 
 console.log(vetorEduardo);
+
+
+const frutas = ['Maçã', 'Perâ', 'Uva', 'Banana', 'Cajú', 'Morango', 'Melão', 'Melancia', 'Carambola', 'Ciriguela', 'Goiaba', 'Manga', 'Limão', 'Laranja', 'Cereja', 'Cajá', 'Tamarindo', 'Amora', 'Kiwi'];
+
+console.log(frutas.length);
+
+
+// For classico do JavaScript
+
+for(let i = 0; i < frutas.length; i++){
+    console.log(`Índice ${i} =`, frutas[i])
+}
