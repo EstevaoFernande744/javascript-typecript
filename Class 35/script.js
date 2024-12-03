@@ -7,7 +7,7 @@ return a > b ? a : b;
 console.log(max(12, 10));
 
 
-const max2 = (x,y) => {
+const max2 = (x, y) => {
     return x > y ? x : y;
 };
 
