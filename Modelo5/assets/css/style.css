@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html,body {
+    background-color: #1e9275;
+}
+
+section.container {
+    background-color: white;
+    margin: auto;
+    font: bolder 1.3em Arial;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
