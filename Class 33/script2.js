@@ -22,3 +22,5 @@ do {
     rand = random(min, max);
     console.log(rand);
 }  while (rand !== 10);
+
+console.log('Chegou no 10....')
