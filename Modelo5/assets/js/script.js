@@ -1,16 +1,17 @@
-const paragrafos = document.querySelector('.paragrafos'); // só retorna um elemento
+const relogio = document.querySelector('.relogio')
+const iniciar = document.querySelector('.iniciar')
+const pausar = document.querySelector('.pausar')
+const zerar = document.querySelector('.zerar')
 
-const ps = paragrafos.querySelectorAll('p'); 
+iniciar.addEventListener('click', function(event){
+    relogio.innerHTML = 'Cliquei no iniciar'
+})
 
-const estilosBody = getComputedStyle(document.body)
-const backGroundColorBody = estilosBody.backgroundColor;
+pausar.addEventListener('click', function(event){
+    alert('Cliquei no pausar')
+})
 
-console.log(backGroundColorBody)
+zerar.addEventListener('click', function(event){
+    alert('Cliquei no zerar')
+})
 
-// nodelist, não array
-
-for(let p of ps){
-    console.log(p)
-    p.style.backgroundColor = backGroundColorBody // bg do body
-    p.style.color = '#FFFFFF' // pintar as letras de branco
-};
