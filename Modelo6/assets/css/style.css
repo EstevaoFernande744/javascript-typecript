@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+html,body {
+    background-color: #1e9275;
+}
+
+section.container {
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    font: bolder 1.3em Arial;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font: bolder 2em Arial;
+    color: #1e9275;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+}
+
+li {
+    color: #1e9275;
+    font: bolder 0.7em Arial;
+}
+
+.btn-add-tarefa {
+    font: bolder 1em Arial;
+    background-color: #1e9275;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #50ddba;
+    color: white;
+}
+
+.input-nova-tarefa {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1e9275;
+}
+
+.btn-apagar {
+    background-color: #1e9275;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #50ddba;
+    color: white;
+}
