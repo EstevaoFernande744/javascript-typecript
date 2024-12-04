@@ -65,3 +65,24 @@ h1 {
     border: 1px solid #50ddba;
     color: white;
 }
+
+.guardar {
+    font:bolder 1em Arial;
+    background-color: #1e9275;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #50ddba;
+    color: white;
+}
+
+.salvos {
+    font:bolder 1em Arial;
+    padding: 5px;
+    color: #1e9275;
+}
+
+.pausado {
+    font: bolder 2.5em Arial;
+    text-align: center;
+    color: #eb1b1b;
+}
