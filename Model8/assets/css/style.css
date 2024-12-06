@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+html,body {
+    background-color: #1e3ecfdc;
+    height: 100vh;
+    width: 100vw;
+}
+
+section.container {
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    font: bolder 1.3em Arial;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font: bolder 2em Arial;
+    color: #1e3ecfdc;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+.display {
+    font: bolder 1em Arial;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #1e3ecfdc;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #1e3ecfdc;
+    border: 1px solid #1e3ecf70;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font: bolder 1em Arial;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0d1c5cdc;
+    transition-duration: 0.5s;
+}
