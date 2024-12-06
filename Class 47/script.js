@@ -33,14 +33,14 @@ function criaPessoa(nome, sobrenome, peso, altura){ // função comum
 }
 
 const p1 = criaPessoa('Estevão', 'Fernandes', 105, 1.66); // criando uma variavel que vamos passar a função 
-console.log(p1.fala('Sobre JS')); // mostrar o objeto
-console.log(p1.imc());
+//console.log(p1.fala('Sobre JS')); // mostrar o objeto
+//console.log(p1.imc());
 
 const p2 = criaPessoa('Jordanna', 'Lima', 70, 1.66);
-console.log(p2.fala('Sobre JS')); // mostrar o objeto
-console.log(p2.imc());
+//console.log(p2.fala('Sobre JS')); // mostrar o objeto
+//console.log(p2.imc());
 
  // console.log(p1.nomeCompleto()) ----- SEM O GET
- console.log(p1.nomeCompleto, p2.nomeCompleto)
+ //console.log(p1.nomeCompleto, p2.nomeCompleto)
  p1.nomeCompleto = 'Estevão Fernandes Junior'; // salva o valor
  p2.nomeCompleto = 'Jordanna Lima de Oliveira'; // salva o valor
