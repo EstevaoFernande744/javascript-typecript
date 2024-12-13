@@ -21,6 +21,8 @@ class ControleRemoto { // metodo estático, metodo apenas referente a classe
         console.log('ok, vou trocar.')
     }
 
+    /* Lembrando que os metodos estaticos não tem acesso aos dados da instância */
+
 }
 
 const controle1 = new ControleRemoto('LG');
