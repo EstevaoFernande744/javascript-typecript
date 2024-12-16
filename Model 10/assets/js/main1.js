@@ -33,7 +33,7 @@ class ValidaFormulario {
             this.criaErro(repetirSenha, 'Os campos "senha" e "repetir senha" precisam ser iguais.');
         }
 
-        if (senha.value.length < 6 || senha.value.length > 12) {
+        if (senha.value.length < 6 || senha.value.length >= 12) {
             valido = false;
             this.criaErro(senha, 'A senha precisa ter entre 6 e 12 caracteres.');
         }
