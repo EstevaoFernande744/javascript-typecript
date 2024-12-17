@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Formulario de Cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio;</li>
+            <li>Usuário só poderá conter letras e/ou números;</li>
+            <li>O nome de usuário deve conter entre 4 a 12 caracteres;</li>
+            <li>A senha deve conter entre 6 a 12 caracteres;</li>
+        </ul>
+        
+        <form action="/" method="POST" class="form" id="form">
+
+            <label for="nome">Nome: <br>
+            <input type="text" id="nome" class="nome validar" placeholder="Seu primeiro nome"></label> <br>
+
+            <label for="sobrenome">Sobrenome:</label> <br>
+            <input type="text" id="sobrenome" class="sobrenome validar" placeholder="Seu sobrenome"> <br>
+
+            <label for="cpf">CPF:</label> <br>
+            <input type="text" id="cpf" class="cpf validar" placeholder="Digite seu CPF"> <br>
+
+            <label for="usuario">Usuário:</label> <br>
+            <input type="text" id="usuario" class="usuario validar" placeholder="Digite seu nome de usuário"> <br>
+
+            <label for="senha">Senha:</label> <br>
+            <input type="password" id="senha" class="senha validar" placeholder="Digite sua senha"> <br>
+
+            <label for="rsenha">Repetir Senha:</label> <br>
+            <input type="password" id="rsenha" class="rsenha validar" placeholder="Reescreva a senha"> <br>
+
+            <div>
+            <button type="submit" class="enviar">Enviar</button></div>
+            
+        </form> 
+
+    </section>
+
+    <script src="assets/js/validaCPF.js"></script>
+    <script src="assets/js/main1.js"></script>
+</body>
+</html>
