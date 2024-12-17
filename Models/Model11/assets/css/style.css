@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+    background-color: #4057bd;
+    height: 100vh;
+    width: 100vw;
+}
+
+section.container {
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    font: bolder 1.3em Arial;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font: bolder 2em Arial;
+    color: #2e4bca;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    font: normal 0.8em Arial;
+}
+
+label {
+    font: normal 1em Arial;
+}
+
+input {
+    padding: 5px;
+    width: 70vw;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.enviar {
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    border: 1px;
+    background-color: #2e4bca;
+    color: white;
+}
+
+.error-text {  
+    color: red;
+    font: normal 0.8em Arial;
+}
+
+.display {
+    font: bolder 1em Arial;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #1e40d8;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #1e3ecfdc;
+    border: 1px solid #1e3ecf70;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font: bolder 1em Arial;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0d1c5cdc;
+    transition-duration: 0.5s;
+}
